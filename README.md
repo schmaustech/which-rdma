@@ -13,7 +13,7 @@ The three configuration methods for GPUDirect RDMA are as follows:
 * RDMA Shared Device
 * RDMA SR-IOV Legacy Device
 * RDMA Host Device
-* 
+
 Let's take a look at each of these options and discuss why one might be used over the other depending on a consumers use case.
 
 ## RDMA Shared Device
