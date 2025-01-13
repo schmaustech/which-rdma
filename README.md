@@ -45,7 +45,7 @@ When using the NVIDIA network operator in OpenShift there is a configuration met
 
 The example above shows both an RDMA shared device for an ethernet interface and an infiniband interface.   We also define the number of pods that could consume the interface via the rdmaHcaMax parameter.   In the NicClusterPolicy we can define as many interfaces that we have in the worker nodes.  
 
-In an RDMA shared device configuration keep in mind that the pods sharing the device will be competing for the bandwidth and latency of the same device as with any shared resource.  Thus an RDMA shared device is better suited for developer environments where performance and latency are not key but the ability to test RDMA functionality across nodes is important.
+In an RDMA shared device configuration keep in mind that the pods sharing the device will be competing for the bandwidth and latency of the same device as with any shared resource.  Thus an RDMA shared device is better suited for developer or application environments where performance and latency are not key but the ability to have RDMA functionality across nodes is important.
 
 ## RDMA SR-IOV Legacy Device
 
